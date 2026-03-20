@@ -1,0 +1,28 @@
+# NSD Data Directory
+
+This directory contains the Natural Scenes Dataset (NSD) data files required for training and inference.
+
+## Required Files
+
+### fMRI Data
+NSD fMRI inputs are in **fsaverage** surface space, using the **`betas_fithrf_GLMdenoise_RR`**  preprocessing.
+
+`fmri_v2.npz` - Main fMRI recordings from NSD subjects:
+- Voxels are selected according to algonauts mask
+- Each session is z-scored and repeats are averaged for each image
+- `single_sub_fmri` - fMRI data for images only a single subject saw
+- `single_sub` - corresponding subject id for single_sub_fmri
+- `multi_sub_fmri` - fMRI measurements for images all subjects saw (voxels concatenated across subjects)
+- `type_sample` - for each of the 73K images: 1 = single subject saw, 2 = all subjects saw, 0 = none saw
+
+`num_voxels_all_subjects.npy` - Number of voxels per subject
+
+### Image Data
+all_images is an image array of 73K images from the NSD experiment where each index corresponds to NSD_id
+
+ext_images is an image array from https://cocodataset.org/#download 2017 Unlabeled images
+
+## Data Source
+
+The NSD dataset should be downloaded from the official Natural Scenes Dataset website:
+https://naturalscenesdataset.org/
