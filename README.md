@@ -4,7 +4,11 @@ Implementation of:
 
 - **The Wisdom of a Crowd of Brains: A Universal Brain Encoder** — Roman Beliy\*, Navve Wasserman\*, Amit Zalcher, Michal Irani. [arXiv:2406.12179](https://arxiv.org/abs/2406.12179)
 
+  ![Universal Brain Encoder](figures/universal_encoder.PNG)
+
 - **Brain-IT: Image Reconstruction from fMRI via Brain-Interaction Transformer** — Roman Beliy\*, Amit Zalcher\*, Jonathan Kogman, Navve Wasserman, Michal Irani. Accepted at **ICLR 2026**. [arXiv:2510.25976](https://arxiv.org/abs/2510.25976)
+
+  ![Brain-IT](figures/brain_it.jpg)
 
 \* Stands for equal contribution.
 
