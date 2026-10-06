@@ -17,10 +17,10 @@ FOLDERS=(
     "https://drive.google.com/drive/folders/1DfjrnovORU4HiTdFcf7vvf46Eqa_ffKQ"
     "https://drive.google.com/drive/folders/1_5hoJW96sfd66ULAU-ZVdvk9SbjtBzsQ"
     "https://drive.google.com/drive/folders/1WFk5LvjvkK6dktc6NEyQi70iAq7yBt8E"
-    "https://drive.google.com/drive/folders/1rtvuehIGWgF7bxoiDa_l-ZISsSN-QI3V"
+    "https://drive.google.com/drive/folders/1jthefvkpA38uiN-07x3DChOwcGXIeO_-"
     "https://drive.google.com/drive/folders/1fTbZdzleoZHYVDZv5trkrpcG_2JxornQ"
     "https://drive.google.com/drive/folders/1QJ4gE4aHqzA4c8C7iOHqMS5zxE3sSqK6"
-    "https://drive.google.com/drive/folders/1XMkHVpTjHAwh31Tvx62b4JjEg2fVZ--q"
+    "https://drive.google.com/drive/folders/17sn7ep2c6qDiBcFf1fNnhEL0sjlc8M30"
 )
 
 download_subject() {
